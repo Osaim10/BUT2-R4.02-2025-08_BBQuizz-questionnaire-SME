@@ -9,13 +9,11 @@ public class ListeQuestRenvoyeTest implements QuestionnaireServices {
 
     @Override
     public ArrayList<QuestionnaireDTO> fournirListeQuestionnaire(String chemin) {
-        QuestionnaireDTO quest1 = new QuestionnaireDTO("gaming");
-        QuestionnaireDTO quest2 = new QuestionnaireDTO("sports");
-        QuestionnaireDTO quest3 = new QuestionnaireDTO("cinema");
+        QuestionnaireDTO quest1 = new QuestionnaireDTO("maths");
+        QuestionnaireDTO quest2 = new QuestionnaireDTO("litterature");
         ArrayList<QuestionnaireDTO> questionnaire = new ArrayList<>();
         questionnaire.add(quest1);
         questionnaire.add(quest2);
-        questionnaire.add(quest3);
         return questionnaire;
     }
 }
