@@ -1,0 +1,5 @@
+id_questionnaire,num_question,langue,libellé question,réponse,difficulté,explication,référence
+1,1,fr,1 + 1 ?,2,1,l'addition ,https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.unifr.ch/universitas/fr/editions/2017-2018/la-france/pourquoi-112/&ved=2ahUKEwiVs56zzaeMAxWlR6QEHTYeJD8QFnoECBoQAw&usg=AOvVaw1LF8qEmYbhN3hoGX9-KQYl
+1,2,fr,la réponse à la vie ?,42,1,dans le livre Le Guide du Voyageur Galactique,https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.eurekoi.org/pourquoi-dit-on-que-42-est-la-reponse-a-la-vie/&ved=2ahUKEwjFiPWbzqeMAxW8UqQEHUvyI0UQFnoECBQQAw&usg=AOvVaw3iGqomrBb9x8sMsRmmoIwi
+2,1,fr,quel année IHNMAIMS ?,1995,2,livre horreur écrit par Harlan Ellison après WW2,"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fr.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream&ved=2ahUKEwifhdziz6eMAxVJTaQEHcGAAWAQFnoECA4QAQ&usg=AOvVaw1FuchA3FRuxt-fr1ABS_jo"
+2,2,fr,auteur de The King in Yellow ?,Robert W. Chambers,3,collection d'histoires bizarres d'après Lovecraft  ,https://fr.wikipedia.org/wiki/Le_Roi_en_jaune

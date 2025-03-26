@@ -14,7 +14,7 @@ public class FournirListeQuestionnaireTest {
     @Test
     public void fichierInexistantExceptionTest() {
         FichierInexistantTest fichier = new FichierInexistantTest();
-        String chemin = "";
+        String chemin = "src/main/resources/quest_inexistant.csv";
 
         Assertions.assertThrows(FichierInexistantException.class, () -> fichier.fournirListeQuestionnaire(chemin));
     }
@@ -22,21 +22,19 @@ public class FournirListeQuestionnaireTest {
     @Test
     public void questInvalideExceptionTest() {
         QuestInvalideTest quest = new QuestInvalideTest();
-        String chemin = "";
+        String chemin = "src/main/resources/quest_invalide.csv";
 
         Assertions.assertThrows(QuestInvalideException.class, () -> quest.fournirListeQuestionnaire(chemin));
     }
 
     @Test
     public void listeQuestRenvoyeTest() {
-        QuestionnaireDTO quest1 = new QuestionnaireDTO("gaming");
-        QuestionnaireDTO quest2 = new QuestionnaireDTO("sports");
-        QuestionnaireDTO quest3 = new QuestionnaireDTO("cinema");
+        QuestionnaireDTO quest1 = new QuestionnaireDTO("maths");
+        QuestionnaireDTO quest2 = new QuestionnaireDTO("litterature");
         ArrayList<QuestionnaireDTO> questionnaire = new ArrayList<>();
         questionnaire.add(quest1);
         questionnaire.add(quest2);
-        questionnaire.add(quest3);
 
-        Assertions.assertEquals(new ListeQuestRenvoyeTest().fournirListeQuestionnaire(""), questionnaire);
+        Assertions.assertEquals(new ListeQuestRenvoyeTest().fournirListeQuestionnaire("src/main/resources/quest_valide.csv"), questionnaire);
     }
 }
