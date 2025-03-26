@@ -39,10 +39,10 @@ public class QuestionnaireServicesImpl implements QuestionnaireServices {
                         questionnaire.addQuestion(questionDTO);
 
                     } catch (IllegalArgumentException e) {
-                        throw new FichierInexistantException();
+                        throw new QuestInvalideException();
                     }
                 } else {
-                    throw new FichierInexistantException();
+                    throw new QuestInvalideException();
                 }
             }
             questionnaires.add(questionnaire);

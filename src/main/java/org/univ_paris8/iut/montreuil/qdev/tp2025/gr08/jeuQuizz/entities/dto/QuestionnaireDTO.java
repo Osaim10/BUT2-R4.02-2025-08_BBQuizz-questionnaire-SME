@@ -16,7 +16,9 @@ public class QuestionnaireDTO {
     public void addQuestion(QuestionDTO question) {
         this.questions.add(question);
     }
-
+    public String toString() {
+        return "Nom du questionnaire : " ;
+    }
     public List<QuestionDTO> getQuestions() {
         return questions;
     }
