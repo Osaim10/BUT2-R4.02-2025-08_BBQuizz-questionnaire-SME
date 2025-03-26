@@ -1,6 +1,5 @@
 package org.univ_paris8.iut.montreuil.qdev.tp2025.gr08.jeuQuizz.entities.dto;
 
-import com.sun.tools.javac.comp.Todo;
 import org.univ_paris8.iut.montreuil.qdev.tp2025.gr08.jeuQuizz.utils.enums.Langue;
 
 public class QuestionDTO {
