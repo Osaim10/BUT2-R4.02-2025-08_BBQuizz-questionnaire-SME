@@ -1,4 +1,4 @@
-package org.univ_paris8.iut.montreuil.qdev.tp2025.gr08.jeuQuizz.services.ampl;
+package org.univ_paris8.iut.montreuil.qdev.tp2025.gr08.jeuQuizz.services.impl;
 
 import org.univ_paris8.iut.montreuil.qdev.tp2025.gr08.jeuQuizz.entities.dto.QuestionnaireDTO;
 import org.univ_paris8.iut.montreuil.qdev.tp2025.gr08.jeuQuizz.services.interfaces.QuestionnaireServices;
